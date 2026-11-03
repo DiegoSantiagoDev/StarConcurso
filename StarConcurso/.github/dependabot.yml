@@ -1,0 +1,8 @@
+# Alertas e PRs automáticos para dependências vulneráveis ou desatualizadas (lista de erros: #296, #664, #676, #477).
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5

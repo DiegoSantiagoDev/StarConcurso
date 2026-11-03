@@ -1,0 +1,21 @@
+# Dependências e artefatos de build: nunca versionar (são gerados por `npm install` / `npm run build`)
+node_modules/
+dist/
+.vite/
+
+# Segredos e configuração local: NUNCA commitar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs e lixo de sistema
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
